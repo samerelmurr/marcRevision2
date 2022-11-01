@@ -1,0 +1,51 @@
+html, body{
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    width: 100%;
+}
+
+div{
+    height: 200px;
+    width: 200px;
+}
+
+.red{
+    background-color: red;
+    height: 400px;
+    width: 400px;
+    position: absolute;
+    
+}
+
+.blue{
+    background-color: blue;
+    position: relative;
+    bottom: 0;
+}
+
+.green{
+    background-color: green;
+    position: relative;
+    left: 10%;
+}
+
+.yellow{
+    background-color: yellow;
+    position: relative;
+}
+
+@media (max-width: 400px){
+    
+    .div{
+        height: 100px;
+        width: 100px;
+    }
+    
+    .red{
+        background-color: rgb(215, 123, 123);
+        height: 200px;
+        width: 200px;
+    }
+
+}
